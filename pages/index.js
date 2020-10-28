@@ -1,4 +1,5 @@
-import Nav from '../components/nav'
+import Nav from "../components/nav";
+import Main from "../components/main";
 
 export default function IndexPage() {
   return (
@@ -9,6 +10,7 @@ export default function IndexPage() {
           Next.js + Tailwind CSS
         </h1>
       </div>
+      <Main />
     </div>
-  )
+  );
 }
